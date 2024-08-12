@@ -1,0 +1,31 @@
+/* src/CartaoPerfil.css */
+.cartao-perfil {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin: 16px auto;
+}
+
+.cartao-perfil-imagem {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.cartao-perfil-titulo {
+  font-size: 24px;
+  margin: 8px 0;
+  color: #333;
+}
+
+.cartao-perfil-descricao {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
